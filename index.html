@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+        rel="stylesheet">
+    <title>Age Calculator App</title>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <section class="range">
+                <div class="day">
+                    <label for="day">DAY</label>
+                    <input type="number" name="day" id="day" placeholder="DD">
+                    <div class="error"></div>
+                </div>
+
+                <div class="month">
+                    <label for="month">MONTH</label>
+                    <input type="number" name="month" id="month" placeholder="MM">
+                    <div class="error"></div>
+                </div>
+
+                <div class="year">
+                    <label for="year">YEAR</label>
+                    <input type="number" name="year" id="year" placeholder="YYYY">
+                    <div class="error"></div>
+                </div>
+            </section>
+
+            <div class="divider">
+                <hr>
+                <button>
+                    <img src="assets/images/icon-arrow.svg" alt="arrow">
+                </button>
+            </div>
+
+            <section class="result">
+                <h3>
+                    <span class="years">--</span>
+                    Years
+                </h3>
+                <h3>
+                    <span class="months">--</span>
+                    Months
+                </h3>
+                <h3>
+                    <span class="days">--</span>
+                    Days
+                </h3>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/script/script.js" type="module"></script>
+</body>
+
+</html>
