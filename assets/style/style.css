@@ -105,9 +105,6 @@ main .range {
         padding: 1.3rem;
     }
 
-    .range div {
-    }
-
     .range div label {
         letter-spacing: 0.3rem;
         color: var(--smokeGrayColor);
