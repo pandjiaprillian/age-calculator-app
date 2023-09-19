@@ -10,6 +10,6 @@ Using HTML CSS and JS
 ![image](https://github.com/pandjiaprillian/age-calculator-app/assets/54461403/457c54de-5655-4b6a-9dfc-a63358efce4c)
 
 ### Pages
-
+[pandjiaprillian.github.io/age-calculator-app](https://pandjiaprillian.github.io/age-calculator-app/)
 
 #### Thank You!
